@@ -1,0 +1,309 @@
+#main-toolbar #activity-button {
+  background-image: url(../activity/activity-icon.svg);
+}
+
+#con {
+  padding-left: 300px;
+}
+
+#p {
+  padding-left: 20px;
+  text-align: center;
+  padding-top: 25px;
+}
+
+#canvas {
+  background-image: url(../img/background_1200_900.gif);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#game-container {
+  height: 100%;
+  width: 100%;
+
+}
+
+.menu-buttons {
+  margin-left: 50%;
+}
+
+#welcome-board {
+  background-image: url(../img/homework_green_board.gif);
+  background-position: center;
+  width: 900px;
+  height: 290px;
+  background-repeat: no-repeat;
+  /* padding-left: 20%;
+  padding-right: 20%; */
+  margin-left: 10%;
+  position: relative;
+}
+
+
+#welcome_heading1 {
+  padding-top: 70px;
+  text-align: center;
+  font-size: 2vw;
+}
+
+#welcome_heading2 {
+  text-align: center;
+  font-size: 2vw;
+}
+
+#previous #next #learn-trick #learn-now #let-me-try-the-trick {
+  display: none;
+  visibility: hidden;
+}
+
+#to {
+  color: pink;
+}
+
+#left_helper {
+  position: absolute;
+  top: 310px;
+  left: 170px;
+  text-align: center;
+}
+
+#right_helper {
+  position: absolute;
+  top: 310px;
+  left: 700px;
+  text-align: center;
+}
+
+#middle_helper {
+  position: absolute;
+  top: 310px;
+  left: 370px;
+
+}
+
+#let-me-try-the-trick-answer {
+  position: absolute;
+  top: 480px;
+  left: 370px;
+}
+
+#let-me-try-the-trick-question {
+  position: absolute;
+  top: 142px;
+  left: 420px;
+  text-align: center;
+}
+
+#timer {
+  /* height: 110vw; */
+  height: 110px;
+  width: 110px;
+  background-repeat: no-repeat;
+  background-image: url(../img/timer_board.gif);
+  top: 40px;
+  left: 50px;
+  position: relative;
+  text-align: center;
+  padding-top: 50px;
+}
+
+#lollipop {
+  height: 110px;
+  width: 110px;
+  background-repeat: no-repeat;
+  background-image: url(../img/timer_board.gif);
+  top: 40px;
+  left: 750px;
+  position: absolute;
+  text-align: center;
+  padding-top: 50px;
+}
+
+#lollipops {
+  padding-top: 45px;
+  position: absolute;
+  top: 110px;
+  left: 780px;
+}
+
+#time {
+  padding-top: 45px;
+  position: absolute;
+  top: 110px;
+  left: 85px;
+}
+
+#boy_monitor_penguin {
+  display: inline-block;
+  /* align-self: center; */
+  margin: 0 auto;
+  width: 100%;
+  height: 200px;
+}
+
+#boy_at_desk {
+  background-image: url(../img/boy_at_desk.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 15%;
+  left: 20%;
+  height: 90px;
+  width: 90px;
+  position: absolute;
+}
+
+#monitor {
+  background-image: url(../img/monitor.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 32%;
+  left: 40%;
+  height: 160%;
+  /* width: 90px; */
+  position: absolute;
+}
+
+#penguin_using_computer {
+  background-image: url(../img/penguin_using_computer.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 15%;
+  left: 60%;
+  height: 90px;
+  width: 90px;
+  position: absolute;
+}
+
+#calculator_questions {
+  /* margin:0 auto;
+  padding:0 auto; */
+  text-align: center;
+}
+
+#previous {
+  justify-content: flex-end;
+
+  left: 160px;
+  top: 135rem;
+}
+
+#next {
+
+  float: right;
+}
+
+
+@media screen and (max-width:800px) {
+
+  #welcome-board #game-container #canvas #boy_monitor_penguin {
+    width: 100%;
+    /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+
+@media only screen and (min-width: 600px) {
+
+  /* For tablets: */
+  .col-s-1 {
+    width: 8.33%;
+  }
+
+  .col-s-2 {
+    width: 16.66%;
+  }
+
+  .col-s-3 {
+    width: 25%;
+  }
+
+  .col-s-4 {
+    width: 33.33%;
+  }
+
+  .col-s-5 {
+    width: 41.66%;
+  }
+
+  .col-s-6 {
+    width: 50%;
+  }
+
+  .col-s-7 {
+    width: 58.33%;
+  }
+
+  .col-s-8 {
+    width: 66.66%;
+  }
+
+  .col-s-9 {
+    width: 75%;
+  }
+
+  .col-s-10 {
+    width: 83.33%;
+  }
+
+  .col-s-11 {
+    width: 91.66%;
+  }
+
+  .col-s-12 {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+
+  /* For desktop: */
+  .col-1 {
+    width: 8.33%;
+  }
+
+  .col-2 {
+    width: 16.66%;
+  }
+
+  .col-3 {
+    width: 25%;
+  }
+
+  .col-4 {
+    width: 33.33%;
+  }
+
+  .col-5 {
+    width: 41.66%;
+  }
+
+  .col-6 {
+    width: 50%;
+  }
+
+  .col-7 {
+    width: 58.33%;
+  }
+
+  .col-8 {
+    width: 66.66%;
+  }
+
+  .col-9 {
+    width: 75%;
+  }
+
+  .col-10 {
+    width: 83.33%;
+  }
+
+  .col-11 {
+    width: 91.66%;
+  }
+
+  .col-12 {
+    width: 100%;
+  }
+}
